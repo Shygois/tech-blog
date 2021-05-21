@@ -107,7 +107,7 @@ router.get('/create/', withAuth, (req, res) => {
         },
         {
           model: User,
-          attributes: ['username', 'twitter', 'github']
+          attributes: ['username']
         }
       ]
     })
